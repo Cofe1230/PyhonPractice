@@ -1,5 +1,6 @@
 import turtle
 import random
+import os
 
 def screenLeftClick(x, y):
     global r, g, b
