@@ -30,6 +30,11 @@ RAW 이미지 -> CSV파일로 전환하여 저장 -> CSV파일 수정 -> RAW로 
 cmd  
 pip install xlrd xlwt  
 ```
+xlrd와 xlwt는 액셀 97~03 버전의 xls 파일만 처리한다  
+액셀 07 이후에서 사용하는 xlsx파일을 처리하기 위한 외부 라이브러리 설치
+```
+pip install openpyxl
+```
 * Code12 Code13 Code14  
 python으로 액셀파일 처리(xlrd)  
 * Code15  
@@ -37,9 +42,12 @@ python으로 액셀파일 처리(xlrd)
 * Code16 Code17  
 16 : 평균 키가 165 이상인 행만 추출하여 액셀 저장  
 17 : 인원수가 6명 이상인 그루만 추출하여 액셀 저장  
-
-
-
+* Code 18  
+엑셀 파일을 CSV파일로 저장    
+* Code 19  
+특정 열만 CSV파일로 저장  
+* Code 20  
+xlsx 액셀 파일 처리 (openxyxl 라이브러리)
 
 
 
