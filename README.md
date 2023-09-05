@@ -5,11 +5,31 @@
 Python 기본 문법 연습
 
 ## Day02
+* Code 01 02  
+Python CSV 데이터 읽기  
+* Code 03  
+CSV파일 테이블로 출력  
+* Code 04  
+CSV파일 읽고 쓰기  
+* Code 05  
+특정한 열만 조건으로 쓰기(map)  
+* Code 06  
+CSV라이브러리  
+* Code 07  
+CSV 파일 합치기  
+* Code 08 09  
+CSV 파일 GUI 출력 (tkinter)  
+* Code 10  
+폴더 안에 CSV 합치기 (csv, glob, os)  
+폴더 전체 가져오기(glob)  
+* Code11  
+RAW 이미지 -> CSV파일로 전환하여 저장 -> CSV파일 수정 -> RAW로 저장  
+#### 파이썬에서 액셀 파일 처리
+* 외부 라이브러리 설치  
+```
+cmd  
+pip install xlrd xlwt  
+```
 
-__Code 01 02__ : Python CSV 데이터 읽기  
-__Code 03__ : CSV파일 테이블로 출력  
-**Code 04** : CSV파일 읽고 쓰기  
-**Code 05** : 특정한 열만 조건으로 쓰기(map)  
-**Code 06** : CSV라이브러리  
-**Code 07** : CSV 파일 합치기
-**Code 08 09** : CSV 파일 GUI 출력 (tkinter)
+
+
