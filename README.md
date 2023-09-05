@@ -30,6 +30,18 @@ RAW 이미지 -> CSV파일로 전환하여 저장 -> CSV파일 수정 -> RAW로 
 cmd  
 pip install xlrd xlwt  
 ```
+* Code12 Code13 Code14  
+python으로 액셀파일 처리(xlrd)  
+* Code15  
+액셀 파일 저장 
+* Code16 Code17  
+16 : 평균 키가 165 이상인 행만 추출하여 액셀 저장  
+17 : 인원수가 6명 이상인 그루만 추출하여 액셀 저장  
+
+
+
+
+
 
 
 
