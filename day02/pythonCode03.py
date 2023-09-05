@@ -3,7 +3,7 @@ def printList(pList) :
         print(data, end='\t')
     print()
 
-with open("C:/Users/it/Desktop/python/source/CSV/singer1.csv", "r") as inFp :
+with open("C:/pythonwork/CSV/singer1.csv", "r") as inFp :
     header = inFp.readline()
     header = header.strip()
     header_list = header.split(',')

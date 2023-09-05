@@ -1,5 +1,7 @@
-with open("C:/Users/it/Desktop/python/source/CSV/singer1.csv", "r") as inFp :
-    with open("C:/Users/it/Desktop/python/source/CSV/new_singer1.csv", "w") as outFp:
+#읽는곳
+with open("C:/pythonwork/CSV/singer1.csv", "r") as inFp :
+    #쓰는곳
+    with open("C:/pythonwork/CSV/new_singer1.csv", "w") as outFp:
         header = inFp.readline()
         header = header.strip()
         header_list = header.split(',')
