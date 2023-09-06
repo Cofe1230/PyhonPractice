@@ -5,6 +5,7 @@
 Python 기본 문법 연습
 
 ## Day02
+### Code
 * Code 01 02  
 Python CSV 데이터 읽기  
 * Code 03  
@@ -85,12 +86,13 @@ DBeaver 여러가지 DB GUI
 
 ### Code
 * **code01**  
-python DB연결(DB파일에 직접 연결)  
+python SQLite DB연결(DB파일에 직접 연결)  
 input에 입력하면 DB테이블에 insert 된다  
 * **code02**  
-python DB연결(SQLite 접속해서 연결)  
-insert, select GUI 화면으로 표현
-
+python MySQL DB연결(MySql 접속해서 연결)  
+insert, select GUI 화면으로 표현  
+* **code03**  
+지정된 문자열에 해당 문자가 몇번 썼는지 DB에 저장하는 코드  
 
 
 
