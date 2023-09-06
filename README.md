@@ -66,7 +66,7 @@ sqlite-tools-win32-x86 다운로드
 [https://www.sqlite.org/download.html](https://www.sqlite.org/download.html)  
 DB Browser SQLite GUI  
 [https://sqlitebrowser.org/dl/](https://sqlitebrowser.org/dl/)  
-DBeaver 여러가지 DB GUI
+DBeaver 여러가지 DB GUI  
 [https://dbeaver.io/download/](https://dbeaver.io/download/)
 
 ### SQLite 사용
@@ -119,6 +119,8 @@ findAll('태그명')으로 전체 추출
 * **code08**  
 \<a>태그를 리스트로 추출
 모든 리스트에서 \<a>태그의 href 속성을 출력
+* **code09**
+CSV 파일을 쓰기모드로 열어 현재 시간을 추출한 후 3초마다 날짜 시간을 기록
 
 
 
