@@ -61,9 +61,16 @@ xlsx 액셀 파일 처리 (openxyxl 라이브러리)
 이미지 데이터 배열을 저장하여 액셀로 나타내기
 ## Day03
 #### SQLite 설치
-[https://www.sqlite.org/download.html](https://www.sqlite.org/download.html)  
 sqlite-tools-win32-x86 다운로드  
+[https://www.sqlite.org/download.html](https://www.sqlite.org/download.html)  
+DB Browser SQLite GUI  
+[https://sqlitebrowser.org/dl/](https://sqlitebrowser.org/dl/)  
+DBeaver 여러가지 DB GUI
+[https://dbeaver.io/download/](https://dbeaver.io/download/)
+
 #### SQLite 사용
+
+* **cmd**  
 ```
 .open 데이터베이스이름
 ```  
@@ -76,6 +83,13 @@ sqlite-tools-win32-x86 다운로드
 ```  
 테이블을 좀 예쁘게 보기 위해 사용한다  
 
+### Code
+* **code01**  
+python DB연결(DB파일에 직접 연결)  
+input에 입력하면 DB테이블에 insert 된다  
+* **code02**  
+python DB연결(SQLite 접속해서 연결)  
+insert, select GUI 화면으로 표현
 
 
 
