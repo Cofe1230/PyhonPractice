@@ -59,6 +59,39 @@ xlsx 액셀 파일 처리 (openxyxl 라이브러리)
 이미지 데이터 배열 변수에 저장  
 * Code 23
 이미지 데이터 배열을 저장하여 액셀로 나타내기
+## Day03
+#### SQLite 설치
+[https://www.sqlite.org/download.html](https://www.sqlite.org/download.html)  
+sqlite-tools-win32-x86 다운로드  
+#### SQLite 사용
+```
+.open 데이터베이스이름
+```  
+없으면 생성하고 있으면 연다  
+
+
+```
+.header on
+.mode column
+```  
+테이블을 좀 예쁘게 보기 위해 사용한다  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
